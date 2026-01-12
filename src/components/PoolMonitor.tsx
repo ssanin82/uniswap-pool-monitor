@@ -15,8 +15,7 @@ import { Interface, ethers } from 'ethers';
 /* ================= CONFIG ================= */
 
 const POOL_ADDRESS = '0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640';
-const RPC_WS = 'wss://eth-mainnet.g.alchemy.com/v2/E45W-MsgmrM0Ye2gH8ZoX';
-const RPC_HTTP = 'https://eth-mainnet.g.alchemy.com/v2/E45W-MsgmrM0Ye2gH8ZoX'; // for historical logs
+const RPC_WS = process.env.ALCHEMY_RPC_WS;
 const WINDOW_MS = 10 * 60 * 1000; // 10 minutes
 const SWAP_TOPIC =
   '0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67';
