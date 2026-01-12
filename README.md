@@ -1,4 +1,4 @@
-# Uniswap V3 Swap Prices
+# Uniswap V3 Swap Prices Monitor
 ![alt text](image.png)
 Recently, I was building some toy trading bots on Uniswap V3. At some point, I just wanted a simple swap price chart in my application — React, Next.js, TypeScript. Sounds easy, right? Not quite. Doing it for free turned out to be a lot trickier than expected.
 
